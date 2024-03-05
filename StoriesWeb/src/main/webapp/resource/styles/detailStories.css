@@ -1,0 +1,73 @@
+@charset "UTF-8";
+img {
+    height: 350px;
+    width: 100%;
+}
+
+.inputImageThumb {
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+
+.inputImageThumb {
+    font-size: 1.25em;
+    font-weight: 700;
+    color: white;
+    background-color: black;
+    display: inline-block;
+}
+
+.fileName {
+    background-color: var(--primary-color);
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.inputImageThumb:focus + label,
+.inputImageThumb + label:hover {
+    background-color: red;
+
+}
+
+.detail-content {
+    height: fit-content;
+    box-shadow: 0 1px 10px 0 rgb(34 34 34 / 8%), 0 4px 5px 0 rgb(34 34 34 / 10%);
+    margin-left: 80px;
+}
+
+.detail-header {
+    display: flex;
+    justify-content: space-evenly;
+    box-shadow: 0 1px 10px 0 rgb(34 34 34 / 8%), 0 4px 5px 0 rgb(34 34 34 / 10%);
+}
+
+.detail_header_item {
+    padding: 10px 15px;
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+}
+
+.active_detail_header {
+    background-color: var(--sp-color-1);
+    border-bottom: 4px solid var(--primary-color);
+    font-weight: bold;
+}
+
+.storyForm {
+    padding: 5px 55px 20px;
+}
+
+.detail-item-part {
+    margin: 20px 0;
+    display: flex;
+}

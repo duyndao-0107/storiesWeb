@@ -1,0 +1,15 @@
+@charset "UTF-8";
+.contain-bg {
+    background-color: #f8f8f8;
+    height: fit-content;
+}
+
+#c-header {
+    border-bottom: 1px solid #d7d7d7;
+    padding: 10px;
+}
+
+#c-content {
+    height: 100vh;
+    padding: 10px;
+}
